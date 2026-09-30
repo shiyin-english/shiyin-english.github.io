@@ -7,9 +7,9 @@
 //   cached on first use and kept across releases, so a played episode opens again without the network.
 // - locked/keys.json: network first, cached copy only when offline.
 // - Everything else (version.json, the free episode's streamed audio, word pronunciations): the browser as usual.
-const RELEASE = "a292b9239052";
+const RELEASE = "603dc50e7f38";
 /* global __SHELL__ */
-const SHELL = ["./","assets/app.6e080513f3.js","assets/app.2c63796149.css","favicon.svg","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","icons/apple-touch-icon.png"];
+const SHELL = ["./","assets/app.4ad0643273.js","assets/app.2c63796149.css","favicon.svg","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","icons/apple-touch-icon.png"];
 const SHELL_CACHE = `shiyin-shell-${RELEASE}`;
 const CONTENT_CACHE = "shiyin-content";
 /** How many cached files of each kind to keep (oldest dropped first). */
